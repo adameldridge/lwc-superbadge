@@ -33,7 +33,6 @@ export default class BoatSearchForm extends LightningElement {
         }
       });
       this.dispatchEvent(searchEvent);
-      console.log(this.selectedBoatTypeId );
     }
   }
   

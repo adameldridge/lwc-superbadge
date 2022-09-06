@@ -52,8 +52,7 @@ export default class BoatsNearMe extends LightningElement {
                 this.longitude = position.coords.longitude;
             });
         }
-        console.log(this.latitude);
-        console.log(this.longitude);
+
     }
 
     // Creates the map markers
